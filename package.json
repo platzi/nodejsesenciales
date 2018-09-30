@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/platzi/nodejsesenciales/issues"
   },
-  "homepage": "https://github.com/platzi/nodejsesenciales#readme"
+  "homepage": "https://github.com/platzi/nodejsesenciales#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
