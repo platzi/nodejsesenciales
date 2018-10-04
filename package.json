@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/platzi/nodejsesenciales/issues"
   },
-  "homepage": "https://github.com/platzi/nodejsesenciales#readme"
+  "homepage": "https://github.com/platzi/nodejsesenciales#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-uglify": "^4.0.0"
+  }
 }
