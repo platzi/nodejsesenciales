@@ -1,23 +1,18 @@
 {
-  "name": "nodejsesenciales",
+  "name": "math-ops-test",
   "version": "1.0.0",
-  "description": "Repositorio para el curso de esenciales de Node.js de Platzi.",
+  "description": "A small library to do math operations.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/platzi/nodejsesenciales.git"
+    "test": "mocha"
   },
   "keywords": [
-    "nodejs",
-    "esenciales"
+    "math",
+    "operations"
   ],
-  "author": "Platzi",
+  "author": "LearningDev",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/platzi/nodejsesenciales/issues"
-  },
-  "homepage": "https://github.com/platzi/nodejsesenciales#readme"
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
