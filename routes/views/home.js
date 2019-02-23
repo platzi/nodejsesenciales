@@ -1,5 +1,5 @@
 module.exports = function (app) {
     app.get("/", (req, res)=>{
-        res.send("Hola, estoy en la ruta '/'!");
+        res.send("Hi, this is the route '/'!");
     });
 }
