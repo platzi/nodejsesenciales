@@ -1,5 +1,8 @@
 module.exports = function (app) {
     app.get("/profile/:user", (req, res)=>{
-        res.send(`Hola, estoy en el perfil de ${req.params.user}!`);
+        res.send(`Hi, this is ${req.params.user}'s profile!`);
+    });
+    app.get("/friends/:user", (req, res)=>{
+        res.send(`Hi, these are ${req.params.user}'s friends!`);
     });
 }
